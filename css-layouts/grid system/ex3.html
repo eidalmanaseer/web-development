@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <style >
+  	
+  	.contanier{
+  		width:auto;
+  		height: 60%;
+  		background-color: red;
+  		display: grid;
+  		grid-template-columns: 1fr 2fr;
+  		grid-gap: 20px;
+  	}
+
+
+  	.textarea{
+  /*		width: 50%;
+  		height: 50%;*/
+  		 grid-row: 1/8;
+         grid-column: 1/2;
+  	}
+
+
+  	.input{
+  		width:800px
+  	}
+  </style>
+
+</head>
+<body>
+	<div class="contanier">
+		<textarea class="textarea">
+			
+		</textarea><br>
+
+		Name<input class="input" type="text">
+		Email<input class="input" type="Email">
+		Phon<input class="input" type="Phon">
+		<button style="width: 800px">Submit</button>
+
+
+	</div>
+
+
+</body>
+</html>
